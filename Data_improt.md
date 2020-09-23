@@ -346,3 +346,11 @@ litters_readr
     ## #   dead @ birth` <dbl>, `Pups survive` <dbl>
 
 use readr with \_ is more cleaner
+
+## Exporting data
+
+Export the mlb sub-table
+
+``` r
+write_csv(mlb_df, "./data/mlb_subtable.csv")
+```
